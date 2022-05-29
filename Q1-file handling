@@ -1,0 +1,8 @@
+ ##Write a program to read first 10 characters from a file named “data.txt”
+
+
+f = open(“data.txt”,”r”)
+
+data = f.read(10)
+
+print(data)
